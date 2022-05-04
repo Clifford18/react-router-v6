@@ -1,13 +1,12 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Profile extends Component {
-	render() {
-		return (
-			<div>
-				This is the profile page
-			</div>
-		);
-	}
+function Profile(props) {
+	return (
+		<div>
+			This is the profile page
+			<button>Change to about Page</button>
+		</div>
+	);
 }
 
 export default Profile;

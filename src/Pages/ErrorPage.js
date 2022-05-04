@@ -1,13 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class ErrorPage extends Component {
-	render() {
-		return (
-			<div>
-				Error ! Page does not exist
-			</div>
-		);
-	}
+function ErrorPage(props) {
+	return (
+		<div>
+			Error ! Page does not exist
+		</div>
+	);
 }
 
 export default ErrorPage;
