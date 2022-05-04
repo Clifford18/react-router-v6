@@ -1,10 +1,12 @@
 import React from 'react';
+import {useNavigate} from "react-router-dom"
 
-function Profile(props) {
+function Profile() {
+	let navigate = useNavigate();
 	return (
 		<div>
 			This is the profile page
-			<button>Change to about Page</button>
+			<button onClick={()=> {navigate("/about")}}>Change to about Page</button>
 		</div>
 	);
 }
